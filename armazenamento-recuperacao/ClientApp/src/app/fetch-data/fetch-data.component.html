@@ -1,0 +1,47 @@
+<h1 id="tableLabel">Sistema de Gestão de Documentos</h1>
+
+<p>Listagem e armazenamento de documentos.</p>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+<br/>
+<label>Filtrar por nome: </label><br/>
+<input type="text" [(ngModel)]="searchTerm" placeholder="Pesquisar">
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>ID do documento</th>
+      <th>Nome do documento</th>
+      <th>Tipo do documento</th>
+      <th>Data alteração</th>
+      <th>Adicionar</th>
+      <th>Editar</th>
+      <th>Excluir</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of filteredItems()">
+
+      <td>{{ forecast.temperatureC }}</td>
+      <td>{{ forecast.nomeDocumento }}.xls</td>
+      <td><img src="https://res-1.cdn.office.net/shellux/excel_24x.067c6a6a32c636ef30bc50ddb143b7d9.svg" width="24" height="24" /></td>
+      <td>{{ forecast.date }}</td>
+      <td>
+        <input type="file" style="display: none" #fileInput (change)="handleFileInput($event)">
+        <button (click)="fileInput.click()">
+          <i class="fas fa-plus"></i>
+        </button>
+      </td>
+      <td>
+        
+        <button>
+          <i class="fas fa-pencil-alt"></i> <!-- Ícone de lápis -->
+        </button>
+      </td>
+      <td>
+        <button>
+          <i class="fas fa-times"></i> <!-- Ícone de x -->
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

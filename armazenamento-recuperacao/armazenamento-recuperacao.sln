@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "armazenamento-recuperacao", "armazenamento-recuperacao.csproj", "{FFFEF200-6F48-4C42-BC58-2893875F4694}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - API", "00 - API", "{7F90AEB0-2EA9-45F0-85C4-DF35F9E21893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{89CC0BAC-49D0-4E33-B970-91BF478DFD9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{46388B63-3999-482E-A17D-20D2B65FC8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Aplicacao", "01 - Aplicacao", "{D8042969-F7FC-4559-B11D-2E3F741442D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFFEF200-6F48-4C42-BC58-2893875F4694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFEF200-6F48-4C42-BC58-2893875F4694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFEF200-6F48-4C42-BC58-2893875F4694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFEF200-6F48-4C42-BC58-2893875F4694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFFEF200-6F48-4C42-BC58-2893875F4694} = {7F90AEB0-2EA9-45F0-85C4-DF35F9E21893}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {219E32F9-645C-4004-8DD0-55A244FA1B9A}
+	EndGlobalSection
+EndGlobal
