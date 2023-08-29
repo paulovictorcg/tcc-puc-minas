@@ -1,0 +1,15 @@
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\bin\Debug\net6.0\armazenamento-recuperacao.aplicacao.deps.json
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\bin\Debug\net6.0\armazenamento-recuperacao.aplicacao.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\bin\Debug\net6.0\armazenamento-recuperacao.aplicacao.pdb
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\bin\Debug\net6.0\armazenamento-recuperacao.Dominio.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\bin\Debug\net6.0\armazenamento-recuperacao.Dominio.pdb
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.AssemblyInfoInputs.cache
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.AssemblyInfo.cs
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.csproj.CopyComplete
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\refint\armazenamento-recuperacao.aplicacao.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\armazenamento-recuperacao.aplicacao.pdb
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.aplicacao\obj\Debug\net6.0\ref\armazenamento-recuperacao.aplicacao.dll

@@ -1,0 +1,15 @@
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\bin\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.deps.json
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\bin\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\bin\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.pdb
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\bin\Debug\net6.0\armazenamento-recuperacao.Dominio.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\bin\Debug\net6.0\armazenamento-recuperacao.Dominio.pdb
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.AssemblyInfoInputs.cache
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.AssemblyInfo.cs
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.csproj.CopyComplete
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\refint\armazenamento-recuperacao.infra.repositorio.dll
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\armazenamento-recuperacao.infra.repositorio.pdb
+C:\Users\paulo\source\repos\tcc-puc-minas\armazenamento-recuperacao.infra.repositorio\obj\Debug\net6.0\ref\armazenamento-recuperacao.infra.repositorio.dll

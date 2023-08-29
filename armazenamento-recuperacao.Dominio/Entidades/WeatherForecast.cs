@@ -1,8 +1,8 @@
 namespace armazenamento_recuperacao
 {
-    public class WeatherForecast
+    public class Documentos
     {
-        public DateTime Date { get; set; }
+        public DateTime DataAlteracao { get; set; }
 
         public int TemperatureC { get; set; }
 

@@ -1,8 +1,12 @@
+using armazenamento_recuperacao.infra.IoC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddAplicacao();
+builder.Services.AddRepositorio();
 
 var app = builder.Build();
 

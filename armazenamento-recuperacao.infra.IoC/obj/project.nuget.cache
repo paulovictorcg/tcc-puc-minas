@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iwdwcjcpOiO+sc9dFOb1vteCEoRoCfWoyfOWX/XPrldIMp8tGE+pqQE3DHmH4t/zTjJu5jnSPNMUgv6MwY1/Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.infra.IoC\\armazenamento-recuperacao.infra.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

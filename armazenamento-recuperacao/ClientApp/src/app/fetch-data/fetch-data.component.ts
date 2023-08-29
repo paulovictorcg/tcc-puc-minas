@@ -11,8 +11,9 @@ export class FetchDataComponent {
   uploadedFile: File | null = null;
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
+    http.get<WeatherForecast[]>(baseUrl + 'ListarDocumentos').subscribe(result => {
       this.forecasts = result;
+      console.log(this.forecasts);
     }, error => console.error(error));
   }
   filteredItems(): WeatherForecast[] {
@@ -29,7 +30,7 @@ export class FetchDataComponent {
       temperatureC: this.forecasts.length + 1,
       summary: `Novo Item ${this.forecasts.length + 1}`,
       nomeDocumento: this.uploadedFile ? this.uploadedFile.name : '',
-      date: new Date().toDateString()
+      dataAlteracao: new Date().toDateString()
     };
     this.forecasts.push(newItem);
     this.uploadedFile = null; // Limpa o arquivo após adicionar
@@ -41,7 +42,7 @@ export class FetchDataComponent {
 }
 
 interface WeatherForecast {
-  date: string;
+  dataAlteracao: string;
   temperatureC: number;
   nomeDocumento: string;
   summary: string;

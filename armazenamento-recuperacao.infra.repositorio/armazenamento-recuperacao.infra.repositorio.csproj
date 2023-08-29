@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>armazenamento_recuperacao.infra.repositorio</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\armazenamento-recuperacao.Dominio\armazenamento-recuperacao.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

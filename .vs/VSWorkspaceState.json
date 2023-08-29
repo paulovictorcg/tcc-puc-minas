@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\armazenamento-recuperacao",
+    "\\armazenamento-recuperacao\\ClientApp",
+    "\\armazenamento-recuperacao\\ClientApp\\src",
+    "\\armazenamento-recuperacao\\ClientApp\\src\\app",
+    "\\armazenamento-recuperacao\\ClientApp\\src\\app\\fetch-data",
+    "\\armazenamento-recuperacao\\ClientApp\\src\\app\\home",
+    "\\armazenamento-recuperacao\\Controllers"
   ],
+  "SelectedNode": "\\armazenamento-recuperacao\\ClientApp\\src\\app\\fetch-data\\fetch-data.component.ts",
   "PreviewInSolutionExplorer": false
 }

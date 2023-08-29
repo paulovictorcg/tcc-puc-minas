@@ -1,0 +1,193 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "armazenamento-recuperacao.aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "armazenamento-recuperacao.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/armazenamento-recuperacao.aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/armazenamento-recuperacao.aplicacao.dll": {}
+        }
+      },
+      "armazenamento-recuperacao.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/armazenamento-recuperacao.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/armazenamento-recuperacao.Dominio.dll": {}
+        }
+      },
+      "armazenamento-recuperacao.infra.repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "armazenamento-recuperacao.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/armazenamento-recuperacao.infra.repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/armazenamento-recuperacao.infra.repositorio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "armazenamento-recuperacao.aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../armazenamento-recuperacao.aplicacao/armazenamento-recuperacao.aplicacao.csproj",
+      "msbuildProject": "../armazenamento-recuperacao.aplicacao/armazenamento-recuperacao.aplicacao.csproj"
+    },
+    "armazenamento-recuperacao.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../armazenamento-recuperacao.Dominio/armazenamento-recuperacao.Dominio.csproj",
+      "msbuildProject": "../armazenamento-recuperacao.Dominio/armazenamento-recuperacao.Dominio.csproj"
+    },
+    "armazenamento-recuperacao.infra.repositorio/1.0.0": {
+      "type": "project",
+      "path": "../armazenamento-recuperacao.infra.repositorio/armazenamento-recuperacao.infra.repositorio.csproj",
+      "msbuildProject": "../armazenamento-recuperacao.infra.repositorio/armazenamento-recuperacao.infra.repositorio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "armazenamento-recuperacao.Dominio >= 1.0.0",
+      "armazenamento-recuperacao.aplicacao >= 1.0.0",
+      "armazenamento-recuperacao.infra.repositorio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\paulo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.infra.IoC\\armazenamento-recuperacao.infra.IoC.csproj",
+      "projectName": "armazenamento-recuperacao.infra.IoC",
+      "projectPath": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.infra.IoC\\armazenamento-recuperacao.infra.IoC.csproj",
+      "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.infra.IoC\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.aplicacao\\armazenamento-recuperacao.aplicacao.csproj": {
+              "projectPath": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.aplicacao\\armazenamento-recuperacao.aplicacao.csproj"
+            },
+            "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.Dominio\\armazenamento-recuperacao.Dominio.csproj": {
+              "projectPath": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.Dominio\\armazenamento-recuperacao.Dominio.csproj"
+            },
+            "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.infra.repositorio\\armazenamento-recuperacao.infra.repositorio.csproj": {
+              "projectPath": "C:\\Users\\paulo\\source\\repos\\tcc-puc-minas\\armazenamento-recuperacao.infra.repositorio\\armazenamento-recuperacao.infra.repositorio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
